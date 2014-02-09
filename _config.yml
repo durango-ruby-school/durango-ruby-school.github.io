@@ -1,0 +1,7 @@
+name: Durango Ruby
+markdown: redcarpet
+pygments: true
+
+redcarpet:
+  extensions:
+    - autolink
