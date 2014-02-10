@@ -4,11 +4,7 @@ title:  "Week 1: Getting Started"
 date:   2014-02-08 21:46:54
 ---
 
-## Agenda
-
-5:30 Welcome and introductions<br />
-5:50 Setting up accounts<br />
-6:10 What are Ruby and Rails?<br />
+Welcome to the first night of Durang Ruby School. Here are some notes from the class.
 
 ### Accounts to set up
 
@@ -37,6 +33,7 @@ date:   2014-02-08 21:46:54
     ```ruby
     puts "Hello Ruby!"
     ```
+    
     Save
 7. In the terminal
 
@@ -44,11 +41,22 @@ date:   2014-02-08 21:46:54
     action@durango-instructor-rails-76891:~$ ruby hello.rb
     Hello Ruby
     ```
+8. The rest of the code was demostrated live in class. If you want to see it, you can check out my [notes][8].
+    
+## Resources
+
+* Ruby API Docs: http://ruby-doc.org/core-2.0.0/
+  * [String](http://ruby-doc.org/core-2.0.0/String.html)
+  * [Array](http://ruby-doc.org/core-2.0.0/Array.html)
 
 ## Homework
 
 1. [CodeSchool's Try Ruby][6]
 2. Week 1 of [Thoughtbot's Intro to Ruby on Rails Workshop][7] - Ruby Basics
+3. Palendrome finder
+    * Check to see if a string is the same forwards and backwards
+    * Look at string ruby docs to see if there is a method to reverse a string (Look at String API docs)
+    * print out a message if a word is a palendrome
 
 
 [1]: https://www.nitrous.io/join/lp6ys1jbgvE?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral
@@ -58,3 +66,4 @@ date:   2014-02-08 21:46:54
 [5]: https://chrome.google.com/webstore/detail/nitrousio/efdcneeepllhjlbejkfnaolelbpdacai
 [6]: https://www.codeschool.com/courses/try-ruby
 [7]: https://learn.thoughtbot.com/workshops/20-intro-to-ruby-on-rails
+[8]: https://github.com/durango-ruby-school/Instructor-Notes/blob/master/Week-01-Intro-To-Ruby.md#trying-out-ruby
