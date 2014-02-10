@@ -45,9 +45,16 @@ date:   2014-02-08 21:46:54
     Hello Ruby
     ```
 
+## Homework
+
+1. [CodeSchool's Try Ruby][6]
+2. Week 1 of [Thoughtbot's Intro to Ruby on Rails Workshop][7] - Ruby Basics
+
 
 [1]: https://www.nitrous.io/join/lp6ys1jbgvE?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral
 [2]: http://github.com
 [3]: http://learn.thoughtbot.com
 [4]: http://codeschool.com
 [5]: https://chrome.google.com/webstore/detail/nitrousio/efdcneeepllhjlbejkfnaolelbpdacai
+[6]: https://www.codeschool.com/courses/try-ruby
+[7]: https://learn.thoughtbot.com/workshops/20-intro-to-ruby-on-rails
