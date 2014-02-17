@@ -132,8 +132,9 @@ man cat
 
   <section>
     <ul>
-      <li>Distributed version control system</li>
-      <li>Allows developers to work together</li>
+      <li>Distributed Version Control System (DVCS)</li>
+      <li>Created by Linus Torvalds on Linux Kernel Project</li>
+      <li>Meant to be .</li>
       <li>Used by Github, Heroku</li>
     </ul>
   </section>
@@ -142,6 +143,66 @@ man cat
     <h3>Cloning a git project</h3>
     <p>git clone https://github.com/durango-ruby-school/Instructor-Notes.git</p>
   </section>
+  
+  <section> 
+  	<h3>git help <command></h3>
+  	<p>git help config</p>
+  	<p>git help add</p>
+  </section>
+  
+  <section> 
+  	<h3>Configure your machine</h3>
+  	<p>git config --global user.name "Your Name"</p>
+  	<p>git config --global user.email myemail@example.com</p>
+  	<p>git config --global color.ui true</p>
+  </section>
+  
+  <section>
+  	<h3>Branch</h3>
+  	<p>git branch <BRANCH_NAME></p>
+  	<p>git checkout <BRANCH_NAME></p>
+  	<h5>OR</h5>
+  	<p>git checkout -b <BRANCH_NAME></p>  	
+  </section>
+  
+  <section>
+  	<h3>Check repo status</h3>
+  	<p>git status .</p>  
+  </section>
+
+  <section>
+  	<h3>Add file to staging area</h3>
+  	<p>git add .</p>
+  	<p>git add path/to/file</p> 
+ </section>
+ <section> 	
+  	<p>![Ways to add text](../images/git-add.png)</p> 
+  </section>  	
+  
+  <section>
+  	<h3>Commit change to repo.</h3>
+  	<p>git commit -m "Commit message"</p>
+  	<p>Keep commit messages clear and in present tense.</p>  
+  </section>  	
+  
+  <section>
+  	<h3>Git Timeline History</h3>
+  	<p>git log</p>
+  	<p>Keep commit messages clear and in present tense.</p>  
+  </section>  	
+
+  <section>
+  	<h3>Commit Branch and make pull request</h3>
+  	<p>git push origin <BRANCH_NAME></p>
+  	<p>Go to Github and use pull request with comments.</p>  
+  </section>  
+  
+  <section>
+  	<h3>Git Questions</h3>
+  	<p>git push origin <BRANCH_NAME></p>
+  	<p>Go to Github and use pull request with comments.</p>  
+  </section>  
+
 </section>
 
 <section>
