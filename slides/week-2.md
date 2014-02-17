@@ -134,11 +134,15 @@ man cat
     <ul>
       <li>Distributed Version Control System (DVCS)</li>
       <li>Created by Linus Torvalds on Linux Kernel Project</li>
-      <li>Meant to be .</li>
+      <li>Allows developers to work together.</li>
       <li>Used by Github, Heroku</li>
     </ul>
   </section>
 
+  <section>
+  	<p>![Ways to add text](../images/linus-git.png)</p>
+  </section>
+  
   <section>
     <h3>Cloning a git project</h3>
     <p>git clone https://github.com/durango-ruby-school/Instructor-Notes.git</p>
