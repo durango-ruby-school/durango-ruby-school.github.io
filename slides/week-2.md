@@ -134,7 +134,10 @@ man cat
     <ul>
       <li>Distributed Version Control System (DVCS)</li>
       <li>Created by Linus Torvalds on Linux Kernel Project</li>
-      <li>Allows developers to work together.</li>
+      <li>Allows developers to collaborate easily</li>
+      <li>You can commit changes very quickly.</li>
+      <li> Work offline</li>
+      <li>Everyone has a complete copy</li>
       <li>Used by Github, Heroku</li>
     </ul>
   </section>
@@ -149,7 +152,8 @@ man cat
   </section>
   
   <section> 
-  	<h3>git help <command></h3>
+  	<h3>Gitting help</h3>
+  	<p>git help COMMAND</p>
   	<p>git help config</p>
   	<p>git help add</p>
   </section>
@@ -199,12 +203,30 @@ man cat
   	<h3>Commit Branch and make pull request</h3>
   	<p>git push origin <BRANCH_NAME></p>
   	<p>Go to Github and use pull request with comments.</p>  
-  </section>  
+  </section> 
   
   <section>
-  	<h3>Git Questions</h3>
-  	<p>git push origin <BRANCH_NAME></p>
-  	<p>Go to Github and use pull request with comments.</p>  
+  	<h3>More Git</h3>
+  	<p>
+  	<b>Starting Fresh</b> 
+  		<ul>
+  			<li>git init</li>
+  			<li>git add .</li>
+  			<li>git commit -m "Initial commit"</li>
+  		</ul>		
+  	</p>
+  	<p><b>Ignoring files with .gitignore</b>
+  		<ul>
+  			<li>/.file-to-ignore</li>
+  			<li>/dir/*.txt</li>
+  		</ul>	
+  	</p>
+  	<p><b>Remotes Branches, HEAD, tags and resets</b></p>
+  	
+  </section> 
+  
+  <section>
+  	<h3>Git Questions?</h3>
   </section>  
 
 </section>
