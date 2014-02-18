@@ -199,30 +199,31 @@ man cat
   	<p>Keep commit messages clear and in present tense.</p>  
   </section>  	
 
-  <section>
-  	<h3>Commit Branch and make pull request</h3>
-  	<p>git push origin <BRANCH_NAME></p>
-  	<p>Go to Github and use pull request with comments.</p>  
-  </section> 
   
   <section>
   	<h3>More Git</h3>
-  	<p>
-  	<b>Starting Fresh</b> 
+  	<div>
+  	<p><b>Starting Fresh</b></p> 
   		<ul>
   			<li>git init</li>
   			<li>git add .</li>
   			<li>git commit -m "Initial commit"</li>
   		</ul>		
-  	</p>
-  	<p><b>Ignoring files with .gitignore</b>
+  	</div>
+  	<div>
+  		<p><b>Ignoring files with .gitignore</b></p>
   		<ul>
+  			<li>ls -a, Show Hidden on nitrous</li>
   			<li>/.file-to-ignore</li>
   			<li>/dir/*.txt</li>
   		</ul>	
-  	</p>
-  	<p>git push & git pull</p>
-  	<p><b>Remotes Branches, HEAD, tags and resets</b></p>
+  	</div>
+  	<div>
+  		<b>git push & git pull</b>
+  	</div>
+  	<div>
+  		<b>Remotes Branches, HEAD, tags and resets</b>
+  	</div>
   	
   </section> 
   
