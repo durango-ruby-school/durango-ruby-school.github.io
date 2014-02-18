@@ -136,7 +136,7 @@ man cat
       <li>Created by Linus Torvalds on Linux Kernel Project</li>
       <li>Allows developers to collaborate easily</li>
       <li>You can commit changes very quickly.</li>
-      <li> Work offline</li>
+      <li>Work offline</li>
       <li>Everyone has a complete copy</li>
       <li>Used by Github, Heroku</li>
     </ul>
@@ -221,6 +221,7 @@ man cat
   			<li>/dir/*.txt</li>
   		</ul>	
   	</p>
+  	<p>git push & git pull</p>
   	<p><b>Remotes Branches, HEAD, tags and resets</b></p>
   	
   </section> 
