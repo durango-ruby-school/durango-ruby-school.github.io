@@ -18,6 +18,7 @@ Resources:
 Homework
 
 * Thoughtbot Rails Models Video
+* Sign up for [Go Code Colorado][8] (March 21-23)
 * [Mass Assignment Railscast][3]
 * Create another model Magazine in your app and set up CRUD functionality
 
@@ -29,3 +30,4 @@ Homework
 [5]: http://guides.rubyonrails.org/command_line.html
 [6]: http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to
 [7]: http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for
+[8]: http://gocode.colorado.gov/
