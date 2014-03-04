@@ -13,6 +13,7 @@ Resources:
   * search for 'simple_format'
 * [Rails/Rake Command Line Docs][5]
 * [View Helpers (link_to)][6]
+* [Form Helpers (form_for)][7]
 
 Homework
 
@@ -27,3 +28,4 @@ Homework
 [4]: http://api.rubyonrails.org/
 [5]: http://guides.rubyonrails.org/command_line.html
 [6]: http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to
+[7]: http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for
