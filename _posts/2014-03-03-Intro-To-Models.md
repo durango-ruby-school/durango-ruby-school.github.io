@@ -11,6 +11,8 @@ Resources:
 * [Rails Routing Guide: Resources][2]
 * [Rails API Docs][4]
   * search for 'simple_format'
+* [Rails/Rake Command Line Docs][5]
+* [View Helpers (link_to)][6]
 
 Homework
 
@@ -23,3 +25,5 @@ Homework
 [2]: http://guides.rubyonrails.org/routing.html#resource-routing-the-rails-default
 [3]: http://railscasts.com/episodes/26-hackers-love-mass-assignment-revised
 [4]: http://api.rubyonrails.org/
+[5]: http://guides.rubyonrails.org/command_line.html
+[6]: http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to
