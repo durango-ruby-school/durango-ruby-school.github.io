@@ -1,0 +1,247 @@
+---
+layout: slide-deck
+title: 'Week 5 - Controllers & Associations'
+theme: sky
+transition: default
+---
+
+<section>
+  <h1>Week 5</h1>
+  <h3>Controllers &amp; Associations</h3>
+</section>
+
+<section>
+  <section>
+    <h2>Continuing from last week</h2>
+  </section>
+</section>
+
+<section>
+  <section>
+    <h2>Associations</h2>
+  </section>
+
+  <section>
+    <h3>Storing Books and Reviews</h3>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Review</th>
+      </tr>
+      <tr>
+        <td>Calvin and Hobbes</td>
+        <td>Great book</td>
+      </tr>
+      <tr>
+        <td>Garfield</td>
+        <td>One cool cat</td>
+      </tr>
+    </table>
+
+  </section>
+  <section>
+    <h3>More Reviews: Option 1</h3>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Review</th>
+      </tr>
+      <tr>
+        <td>Calvin and Hobbes</td>
+        <td>Great book, I like hobbes better</td>
+      </tr>
+      <tr>
+        <td>Garfield</td>
+        <td>One cool cat</td>
+      </tr>
+    </table>
+
+  </section>
+  <section>
+    <h3>More Reviews: Option 2</h3>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Review</th>
+      </tr>
+      <tr>
+        <td>Calvin and Hobbes</td>
+        <td>Great book</td>
+      </tr>
+      <tr>
+        <td>Calvin and Hobbes</td>
+        <td>I like Hobbes better</td>
+      </tr>
+      <tr>
+        <td>Garfield</td>
+        <td>One cool cat</td>
+      </tr>
+    </table>
+
+  </section>
+
+  <section>
+    <h3>What happens if a book name changes?</h3>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Review</th>
+      </tr>
+      <tr>
+        <td>The Best of Calvin and Hobbes</td>
+        <td>Great book</td>
+      </tr>
+      <tr>
+        <td>The Best of Calvin and Hobbes</td>
+        <td>I like Hobbes better</td>
+      </tr>
+      <tr>
+        <td>Garfield</td>
+        <td>One cool cat</td>
+      </tr>
+    </table>
+
+    <p class="fragment">What about if there are two books with the same name?</p>
+
+  </section>
+
+  <section>
+    <h3>Option 3 - Use Ids</h3>
+
+    <h4>Books table</h4>
+    <table>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>The Best of Calvin and Hobbes</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Garfield</td>
+      </tr>
+    </table>
+
+    <h4>Reviews table</h4>
+    <table>
+      <tr>
+        <th>Id</th>
+        <th>Book_id</th>
+        <th>Review</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>Great Book</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1</td>
+        <td>I like Hobbes better</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>2</td>
+        <td>One Cool Cat</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h3>Books</h3>
+
+    <ul>
+      <li>The Best of Calvin and Hobbes<br>
+        Id: 1<br>
+        Reviews:
+        <ul>
+          <li>Great Book</li>
+          <li>I like Hobbes Better</li>
+        </ul>
+      </li>
+      <li>Garfield<br>
+        Id: 2<br>
+        Reviews:
+        <ul>
+          <li>One Cool Cat</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h3>Adding Records?</h3>
+
+    <h4>Books table</h4>
+    <table>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>The Best of Calvin and Hobbes</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Garfield</td>
+      </tr>
+    </table>
+
+    <h4>Reviews table</h4>
+    <table>
+      <tr>
+        <th>Id</th>
+        <th>Book_id</th>
+        <th>Review</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>Great Book</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1</td>
+        <td>I like Hobbes better</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>2</td>
+        <td>One Cool Cat</td>
+      </tr>
+    </table>
+
+    <p class="fragment">What would the row look like for a second Garfield review?</p>
+    <p class="fragment">What rows would be needed for a third book with one review?</p>
+  </section>
+
+  <section>
+    <h3>Terminology</h3>
+    <table>
+      <tr>
+        <th>Primary Key</th>
+        <td>The field or fields that uniquely identify a record. (eg. id)</td>
+      </tr>
+      <tr>
+        <th>Foreign Key</th>
+        <td>Field that references the id of another record. (eg. book_id)</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h3>Associations in Rails</h3>
+    <ul>
+      <li>has_many - on primary key side</li>
+      <li>belongs_to - on foreign key side</li>
+    </ul>
+  </section>
+
+
+</section>
