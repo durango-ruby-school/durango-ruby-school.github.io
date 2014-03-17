@@ -16,6 +16,7 @@ Resources
 * [Rails Validation Guides][1]
 * [Bootstrap Sass 2.1][2]
 * [Bootstrap 2.3.2][5]
+* [has_many dependent options][6]
 
 Homework
 
@@ -29,3 +30,4 @@ Homework
 [3]: http://gocode.colorado.gov/
 [4]: https://github.com/durango-ruby-school/Instructor-Notes/blob/master/Week-06-Nested-Controllers-Forms-And-Validations.md
 [5]: http://getbootstrap.com/2.3.2/
+[6]: http://guides.rubyonrails.org/association_basics.html#dependent
