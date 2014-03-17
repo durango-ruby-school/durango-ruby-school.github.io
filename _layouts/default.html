@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/foundation.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
     <script src="js/vendor/modernizr.js"></script>
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
@@ -15,19 +16,15 @@
 
   </head>
   <body>
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name">
-          <h1><a href="/">{{ site.name }}</a></h1>
-        </li>
-      </ul>
-    </nav>
+
+    {% include header.html %}
 
     <div class="row">
       <div class="small-12 columns content">
         {{ content }}
       </div>
     </div>
+
 
   </body>
 </html>
