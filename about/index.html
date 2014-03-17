@@ -20,52 +20,25 @@ title: About Durango Ruby School
   <h2>Instructors</h2>
 </div>
 <div class="row">
+  {% for instructor in site.data.instructors %}
   <div>
     <div class="small-3 columns">
-      <img src="/images/aaron.jpg" />
+      <img src="/images/{{ instructor.image }}" />
     </div>
     <div class="small-9 columns">
-      <h4>Aaron Renner</h4>
-      <p>Ruby and Ruby on Rails Guru. Aaron is the owner and senior software architect at Animas Code Labs, LLC. Animas Code Labs is a small full-service software development studio based in Durango area. Aaron and his team are behind several successful startups, including Bike 20/20 and Rebill, an automated recurring billing platform.</p>
-    <ul class="inline-list">
-      <li><a href="http://animascodelabs.com" title="Animas Code Labs" target="_blank">Animas Code Labs</a></li>
-      <li><a href="http://www.linkedin.com/profile/view?id=53162239&authType=NAME_SEARCH&authToken=OQPE&locale=en_US&srchid=503707291395069992664&srchindex=1&srchtotal=12&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A503707291395069992664%2CVSRPtargetId%3A53162239%2CVSRPcmpt%3Aprimary" title="Aaron's LinkedIn Profile" target="_blank">LinkedIn Profile</a></li>
-      <li><a href="https://github.com/aaronrenner" title="Aaron's Github Profile" target="_blank">Github Profile</a></li>
-    </ul>
-    </div>
-  </div>
-  <div class="row">
-    <hr />
-  </div>
-  <div>
-    <div class="small-3 columns">
-      <img src="/images/alexii.jpg" />
-    </div>
-    <div class="small-9 columns">
-      <h4>Alexii Carey</h4>
-      <p>Passionate and seasoned Ruby on Rails developer. Alexi has been working with Rails since 2008. He is always excited to learn and share his knowledge. Alexi also enjoys working on Open Source projects particularly hardware based projects with Arduino or Raspberry Pi.</p>
+      <h4>{{ instructor.name }}</h4>
+      <p>{{ instructor.description }}</p>
       <ul class="inline-list">
-        <li><a href="http://e7systems.com" title="E7 Systems" target="_blank">E7 Systems</a></li>
-        <li><a href="http://snowdaywizard.com" title="Ciego Productions" target="_blank">Ciego Productions</a></li>
-        <li><a href="http://www.linkedin.com/profile/view?id=50370729&authType=name&authToken=FCMs&trk=prof-sb-browse_map-photo" title="Alexi's LinkedIn Profile" target="_blank">LinkedIn Profile</a></li>
-        <li><a href="https://github.com/elchingon" title="Alexi's Github Profile" target="_blank">Github Profile</a></li>
+        {% for website in instructor.websites %}
+          <li><a href="{{ website.url }}" title="{{ website.name }}" target="_blank">{{ website.name }}</a></li>
+        {% endfor %}
+        <li><a href="http://www.linkedin.com/profile/view?id={{ instructor.linked_in }}" title="{{ instructor.name }}'s LinkedIn Profile" target="_blank">LinkedIn Profile</a></li>
+        <li><a href="https://github.com/{{ instructor.github }}" title="{{ instructor.name }}'s Github Profile" target="_blank">Github Profile</a></li>
       </ul>
     </div>
   </div>
-  <div class="row">
+  <div>
     <hr />
   </div>
-  <div>
-    <div class="small-3 columns">
-      <img src="/images/daniel.jpg" />
-    </div>
-    <div class="small-9 columns">
-      <h4>Daniel Marlow</h4>
-      <p>Durango's most dedicated programmer. Daniel is connected or involved in just about everything related to programming in the area. A former GoDaddy employee and current Blinker architect, you'll find Daniel at just about every Durango Coder's meeting or event. A fortified polygot who has a love for Ruby, Daniel is a strong proponent of teaching programming to every man, woman and child. </p>
-      <ul class="inline-list">
-        <li><a href="http://www.linkedin.com/profile/view?id=5674727" title="Daniel's LinkedIn Profile" target="_blank">LinkedIn Profile</a></li>
-        <li><a href="https://github.com/danielmarlow" title="Daniel's Github Profile" target="_blank">Github Profile</a></li>
-      </ul>
-    </div>
-  </div>
+  {% endfor %}   
 </div>
