@@ -10,3 +10,9 @@ header {
 #header-menu {
   margin-top: 10px;
 }
+#header-menu .button.secondary {
+  background-color: #F1EDE0;
+}
+#header-menu .button.secondary:hover {
+  background: #cecece;
+}
