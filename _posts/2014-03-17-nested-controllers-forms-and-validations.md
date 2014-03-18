@@ -17,6 +17,7 @@ Resources
 * [Bootstrap Sass 2.1][2]
 * [Bootstrap 2.3.2][5]
 * [has_many dependent options][6]
+* [Simple Form Github page][7]
 
 Homework
 
@@ -31,3 +32,4 @@ Homework
 [4]: https://github.com/durango-ruby-school/Instructor-Notes/blob/master/Week-06-Nested-Controllers-Forms-And-Validations.md
 [5]: http://getbootstrap.com/2.3.2/
 [6]: http://guides.rubyonrails.org/association_basics.html#dependent
+[7]: https://github.com/plataformatec/simple_form

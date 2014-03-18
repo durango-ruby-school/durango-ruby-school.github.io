@@ -1,0 +1,24 @@
+- name: Aaron Renner 
+  image: aaron.jpg
+  github: aaronrenner
+  linked_in: 53162239
+  description: "Ruby and Ruby on Rails Guru. Aaron is the owner and senior software architect at Animas Code Labs, LLC. Animas Code Labs is a small full-service software development studio based in Durango area. Aaron and his team are behind several successful startups, including Bike 20/20 and Rebill, an automated recurring billing platform."
+  websites: 
+  - name: Animas Code Labs
+    url: http://animascodelabs.com
+- name: Alexi Carey 
+  image: alexii.jpg
+  github: elchingon
+  linked_in: 50370729
+  description: "Passionate and seasoned Ruby on Rails developer. Alexi has been working with Rails since 2008. He is always excited to learn and share his knowledge. Alexi also enjoys working on Open Source projects particularly hardware based projects with Arduino or Raspberry Pi."
+  websites: 
+  - name: E7 Systems
+    url: http://e7systems.com
+  - name: Ciego Productions 
+    url: http://snowdaywizard.com
+- name: Daniel Marlow 
+  image: daniel.jpg
+  github: danielmarlow
+  linked_in: 5674727
+  description: "Durango's most dedicated programmer. Daniel is connected or involved in just about everything related to programming in the area. A former GoDaddy employee and current Blinker architect, you'll find Daniel at just about every Durango Coder's meeting or event. A fortified polygot who has a love for Ruby, Daniel is a strong proponent of teaching programming to every man, woman and child. "
+  websites: 
