@@ -28,8 +28,9 @@ encouraged to pair.
 
 ### Homework
 
-1. Build out the CRUD actions for books using TDD. Send me an email (aaron@animascodelabs.com)
-if you would like me to review your code
+1. Build out the CRUD actions for books using TDD. Push your code back up to your Github fork and
+send me an email (aaron@animascodelabs.com) if you would like me to review your
+code.
 
 
 [1]: https://github.com/durango-ruby-school/readathon2
