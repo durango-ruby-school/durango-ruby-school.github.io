@@ -26,6 +26,10 @@ encouraged to pair.
 1. Have a working homepage developed using TDD
 2. Build the student CRUD actions using TDD
 
+#Resources
+
+1. [Capybara Reference][2]
+
 ### Homework
 
 1. Build out the CRUD actions for books using TDD. Push your code back up to your Github fork and
@@ -34,3 +38,4 @@ code.
 
 
 [1]: https://github.com/durango-ruby-school/readathon2
+[2]: https://github.com/jnicklas/capybara#the-dsl
