@@ -29,6 +29,7 @@ encouraged to pair.
 #Resources
 
 1. [Capybara Reference][2]
+2. [Rails url helpers][3]
 
 ### Homework
 
@@ -39,3 +40,4 @@ code.
 
 [1]: https://github.com/durango-ruby-school/readathon2
 [2]: https://github.com/jnicklas/capybara#the-dsl
+[3]: http://guides.rubyonrails.org/routing.html#path-and-url-helpers
