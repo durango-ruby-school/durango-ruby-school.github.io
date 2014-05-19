@@ -27,6 +27,14 @@ Project management
 
   1. [Fast Signs app Trello Board][3]
 
+## Helpful git commands
+
+* `git checkout -b <branch name>` Create and check out a new brnach
+* `git status` shows you the files you've changed and which branch you're on
+* `git push origin <branch name>` Push your new branch up to github
+
+Cool git branching tutorial: http://pcottle.github.io/learnGitBranching/
+
 
 ## Recommended reading
 
