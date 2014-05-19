@@ -23,6 +23,10 @@ Downloading setting up the project
   2. Clone the [durango-ruby-school/takeaways][1] repo. Use the SSH clone url.
   3. cd into the takeaways folder and follow the setup instructions in README.md
 
+Project management
+
+  1. [Fast Signs app Trello Board][3]
+
 
 ## Recommended reading
 
@@ -31,3 +35,4 @@ Downloading setting up the project
 
 [1]: https://github.com/durango-ruby-school/takeaways
 [2]: http://www.amazon.com/gp/product/1118008189/ref=as_li_tf_tl?ie=UTF8&tag=httpwwwhtmlan-20
+[3]: https://trello.com/b/d2xdfz5D/fastsigns-app
