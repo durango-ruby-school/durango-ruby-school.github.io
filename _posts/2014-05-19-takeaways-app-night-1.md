@@ -24,4 +24,10 @@ Downloading setting up the project
   3. cd into the takeaways folder and follow the setup instructions in README.md
 
 
+## Recommended reading
+
+1. [The HTML and CSS Book][2]
+
+
 [1]: https://github.com/durango-ruby-school/takeaways
+[2]: http://www.amazon.com/gp/product/1118008189/ref=as_li_tf_tl?ie=UTF8&tag=httpwwwhtmlan-20
