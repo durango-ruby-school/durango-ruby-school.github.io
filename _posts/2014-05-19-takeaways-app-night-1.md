@@ -32,8 +32,9 @@ Project management
 * `git checkout -b <branch name>` Create and check out a new brnach
 * `git status` shows you the files you've changed and which branch you're on
 * `git push origin <branch name>` Push your new branch up to github
+* `git pull origin master` - Pulls the latest changes from master. Can also replace master with a branch name you want to pull.
 
-Cool git branching tutorial: http://pcottle.github.io/learnGitBranching/
+Cool git branching tutorial: http://pcottle.github.io/learnGitBranching/. Also review code school's [Try Git][4].
 
 
 ## Recommended reading
@@ -44,3 +45,4 @@ Cool git branching tutorial: http://pcottle.github.io/learnGitBranching/
 [1]: https://github.com/durango-ruby-school/takeaways
 [2]: http://www.amazon.com/gp/product/1118008189/ref=as_li_tf_tl?ie=UTF8&tag=httpwwwhtmlan-20
 [3]: https://trello.com/b/d2xdfz5D/fastsigns-app
+[4]: https://try.github.io
